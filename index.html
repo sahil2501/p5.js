@@ -1,0 +1,77 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Introduction to p5.js - PROJECT</h3>
+	<hr>
+  <input  id = "filt" type="color">
+  <br>
+  <br>
+  <button onclick="applyFilter()" class="btn btn-warning">Put Filter in webcam</button>
+  <hr style="border-width: 5px; border-color: darkgreen;">
+  <input id = "circColor" type="color">
+  <br>
+  <br>
+  <button onclick="applyCircleColor()" class="btn btn-warning">Put Circle Color</button>
+  <hr style="border-width: 5px; border-color: darkblue;">
+  <hr style="border-width: 5px; border-color: darkblue;">
+  <input id = "CircBordColor" type="color">
+  <br>
+  <br>
+  <button onclick="applyCircleStroke()" class="btn btn-warning">Put Circle Border Color</button>
+  <br>
+  <br>
+  <hr style="border-width: 5px; border-color: darkgreen;">
+  <input id = "RectColor" type="color">
+  <br>
+  <br>
+  <button onclick="applyRectangleColor()" class="btn btn-warning" >Put Frame (rect) Color</button>
+  <hr style="border-width: 5px; border-color: darkblue;">
+  <hr style="border-width: 5px; border-color: darkblue;">
+  <input id = "RectBordColor" type="color">
+  <br>
+  <br>
+  <button onclick="applyRectangleBorderStroke()" class="btn btn-warning">Put Frame (rect) Border Color</button>
+  <hr style="border-width: 5px; border-color: darkgreen;">
+  
+  <input id = "img_name" type="text" placeholder="Enter your image name.................">
+
+  <hr style="border-width: 5px; border-color: purple;">
+
+  <button onclick="setDefault()" class="btn btn-warning">Set To The Default Settings</button>
+  <br>
+  <br>
+  <button style = "margin-bottom: 5
+  
+  
+  
+  
+  0%;" onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
